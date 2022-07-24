@@ -10,6 +10,7 @@ mod LC_0053_DP;
 mod LC_0152;
 mod LC_0198;
 mod LC_0213;
+mod LC_0767;
 mod LC_0777;
 mod LC_1186;
 mod LC_1388;
