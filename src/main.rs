@@ -17,6 +17,7 @@ mod LC_0984;
 mod LC_1054;
 mod LC_1186;
 mod LC_1388;
+mod LC_1405;
 mod LC_2222;
 mod LC_2267;
 mod LC_2318;
