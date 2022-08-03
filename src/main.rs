@@ -21,6 +21,7 @@ mod LC_1405;
 mod LC_2222;
 mod LC_2233;
 mod LC_2234;
+mod LC_2242;
 mod LC_2267;
 mod LC_2318;
 mod LC_2320;
