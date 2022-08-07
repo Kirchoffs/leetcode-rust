@@ -23,7 +23,7 @@ impl Solution {
         let mut res = 0;
         for j in i..n + 1 {
             post[j] = if j > 0 { post[j - 1] + max(target as i64 - flowers[n - j] as i64, 0) } else { 0 };
-            if (post[j] <= new_flowers) {
+            if post[j] <= new_flowers {
                 let remain = new_flowers - post[j];
                 
                 let (mut l, mut r) = (0, n - j + 1);
