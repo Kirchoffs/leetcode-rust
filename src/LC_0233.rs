@@ -22,7 +22,7 @@ impl Solution {
         let upper_digit = if is_limit { digits[idx] as u8 - '0' as u8 } else { 9 };
         for digit in 0..upper_digit + 1 {
             if digit == 1 {
-                res += if digit == upper_digit { 
+                res += if is_limit && digit == upper_digit { 
                     Self::get_number_from_string(digits, idx + 1) + 1
                 } else { 
                     power_ten[digits.len() - 1 - idx] 
