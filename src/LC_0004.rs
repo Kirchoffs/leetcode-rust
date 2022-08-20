@@ -43,7 +43,7 @@ impl Solution {
 
 #[cfg(test)]
 mod test {
-    use super::*;
+    use super::Solution;
 
     fn compare_float(num1: f64, num2: f64, delta: f64) -> bool {
         if (num1 - num2).abs() <= delta {

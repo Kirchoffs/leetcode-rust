@@ -30,7 +30,7 @@ impl Solution {
 
 #[cfg(test)]
 mod test {
-    use super::*;
+    use super::Solution;
 
     #[test]
     fn LC_0042_TwoPointers_1() {

@@ -66,8 +66,10 @@ fn print_list_node(l: Option<Box<ListNode>>) {
 
 #[cfg(test)]
 mod test {
-    use super::*;
-
+    use super::Solution;
+    use super::create_list_node;
+    use super::print_list_node;
+    
     #[test]
     fn LC_0002_1() {
         let l1 = create_list_node(vec![2, 4, 3]);

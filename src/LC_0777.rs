@@ -39,7 +39,7 @@ impl Solution {
 
 #[cfg(test)]
 mod test {
-    use super::*;
+    use super::Solution;
 
     #[test]
     fn LC_0777_1() {

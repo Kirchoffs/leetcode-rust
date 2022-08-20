@@ -53,7 +53,7 @@ impl Solution {
 
 #[cfg(test)]
 mod test {
-    use super::*;
+    use super::Solution;
 
     #[test]
     fn LC_2318_1() {
