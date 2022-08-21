@@ -3,6 +3,7 @@ mod LC_0002;
 mod LC_0003;
 mod LC_0004;
 mod LC_0005;
+mod LC_0031;
 mod LC_0042_Stack;
 mod LC_0042_TwoPointers;
 mod LC_0053_DAC;
