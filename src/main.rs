@@ -21,6 +21,7 @@ mod LC_0727;
 mod LC_0767;
 mod LC_0777;
 mod LC_0792;
+mod LC_0834;
 mod LC_0902;
 mod LC_0984;
 mod LC_1012;
