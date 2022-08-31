@@ -45,6 +45,7 @@ mod LC_2312;
 mod LC_2318;
 mod LC_2320;
 mod LC_2321;
+mod LC_2328;
 mod LC_2332;
 mod LC_2335;
 mod LC_2350;

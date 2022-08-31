@@ -1,6 +1,6 @@
 use std::collections::VecDeque;
 
-struct Solution {}
+struct Solution;
 
 impl Solution {
     pub fn latest_time_catch_the_bus(mut buses: Vec<i32>, mut passengers: Vec<i32>, capacity: i32) -> i32 {

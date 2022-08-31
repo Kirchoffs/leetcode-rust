@@ -8,7 +8,7 @@ pub enum State {
 const DX: [i32; 4] = [0, 0, 1, -1];
 const DY: [i32; 4] = [1, -1, 0, 0];
 
-struct Solution {}
+struct Solution;
 
 impl Solution {
     pub fn valid_dfs(x: usize, y: usize, dx: usize, dy: usize, matrix: &Vec<Vec<i32>>) -> bool {
