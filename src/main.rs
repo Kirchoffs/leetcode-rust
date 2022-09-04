@@ -16,6 +16,7 @@ mod LC_0233;
 mod LC_0329;
 mod LC_0351;
 mod LC_0357;
+mod LC_0484;
 mod LC_0524;
 mod LC_0560;
 mod LC_0621;
@@ -53,7 +54,8 @@ mod LC_2335;
 mod LC_2350;
 mod LC_2360;
 mod LC_2370;
-mod LC_2375;
+mod LC_2375_Stack;
+mod LC_2375_TopologicalSort;
 
 fn main() {
     println!("Hello Rust");
