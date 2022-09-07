@@ -6,7 +6,7 @@ impl Solution {
         let modulus = 1e9 as i32 + 7;
         
         let n = chs.len();
-        // Consider the first i instructions
+        // Consider the first i instructions, which refers to i + 1 numbers.
         let mut pre_dp = vec![vec![0; n + 1]; n + 1];
         
         pre_dp[0][0] = 1;
