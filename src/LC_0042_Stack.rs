@@ -2,7 +2,7 @@ use std::cmp::max;
 use std::cmp::min;
 use std::collections::VecDeque;
 
-struct Solution{}
+struct Solution;
 
 impl Solution {
     pub fn trap(height: Vec<i32>) -> i32 {
