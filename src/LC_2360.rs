@@ -1,6 +1,6 @@
 use std::cmp::max;
 
-struct Solution {}
+struct Solution;
 
 impl Solution {
     pub fn longest_cycle(edges: Vec<i32>) -> i32 {
