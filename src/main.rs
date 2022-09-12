@@ -65,6 +65,7 @@ mod LC_2370;
 mod LC_2375_Stack;
 mod LC_2375_TopologicalSort;
 mod LC_2395;
+mod LC_2398;
 
 fn main() {
     println!("Hello Rust");
