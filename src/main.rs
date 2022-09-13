@@ -26,6 +26,7 @@ mod LC_0767;
 mod LC_0777;
 mod LC_0792;
 mod LC_0834;
+mod LC_0862;
 mod LC_0902;
 mod LC_0903;
 mod LC_0903_PresumOptimized;
