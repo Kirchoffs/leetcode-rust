@@ -53,14 +53,14 @@ mod test {
     use super::Solution;
 
     #[test]
-    fn LC_0239_1() {
+    fn LC_0310_1() {
         let n = 4;
         let edges = vec![vec![1, 0], vec![1, 2], vec![1, 3]];
         assert_eq!(Solution::find_min_height_trees(n, edges), vec![1]);
     }
 
     #[test]
-    fn LC_0239_2() {
+    fn LC_0310_2() {
         let n = 6;
         let edges = vec![vec![3, 0], vec![3, 1], vec![3, 2], vec![3, 4], vec![5, 4]];
         assert_eq!(Solution::find_min_height_trees(n, edges), vec![3, 4]);
