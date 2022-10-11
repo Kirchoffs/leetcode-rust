@@ -60,6 +60,7 @@ mod LC_2234;
 mod LC_2242;
 mod LC_2263;
 mod LC_2267;
+mod LC_2282;
 mod LC_2311;
 mod LC_2312;
 mod LC_2318;

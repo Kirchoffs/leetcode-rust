@@ -6,10 +6,14 @@ impl Solution {
         let mut res = vec![0; heights.len()];
         
         for i in 0 .. heights.len() {
+            let mut equal_case = false;
             while !stk.is_empty() && heights[i] >= heights[stk[stk.len() - 1]] {
+                if heights[i] == heights[stk[stk.len() - 1]] {
+                    equal_case = true;
+                }
                 res[stk.pop().unwrap()] += 1;
             }
-            if !stk.is_empty() {
+            if !stk.is_empty() && !equal_case {
                 res[stk[stk.len() - 1]] += 1;
             }
             stk.push(i);
