@@ -12,6 +12,7 @@ mod LC_0060;
 mod LC_0085;
 mod LC_0152;
 mod LC_0198;
+mod LC_0204;
 mod LC_0213;
 mod LC_0233;
 mod LC_0239;
