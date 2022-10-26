@@ -60,6 +60,7 @@ mod LC_1944;
 mod LC_1998;
 mod LC_2055;
 mod LC_2115;
+mod LC_2183;
 mod LC_2197;
 mod LC_2222;
 mod LC_2233;
