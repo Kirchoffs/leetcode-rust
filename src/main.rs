@@ -78,6 +78,7 @@ mod LC_2328;
 mod LC_2332;
 mod LC_2334;
 mod LC_2335;
+mod LC_2344;
 mod LC_2350;
 mod LC_2360;
 mod LC_2370;
