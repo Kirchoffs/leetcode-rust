@@ -92,6 +92,7 @@ mod LC_2375_Stack;
 mod LC_2375_TopologicalSort;
 mod LC_2395;
 mod LC_2398;
+mod LC_2426;
 mod LC_2434;
 mod LC_2456;
 
