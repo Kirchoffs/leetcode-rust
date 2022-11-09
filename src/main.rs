@@ -46,6 +46,7 @@ mod LC_1054;
 mod LC_1055;
 mod LC_1067;
 mod LC_1186;
+mod LC_1224;
 mod LC_1388;
 mod LC_1405;
 mod LC_1425;
