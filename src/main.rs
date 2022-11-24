@@ -4,6 +4,7 @@ mod lc_0003;
 mod lc_0004;
 mod lc_0005;
 mod lc_0031;
+mod lc_0041;
 mod lc_0042_Stack;
 mod lc_0042_TwoPointers;
 mod lc_0053_DAC;

@@ -2,7 +2,7 @@ struct Solution;
 
 impl Solution {
     pub fn product_queries(n: i32, queries: Vec<Vec<i32>>) -> Vec<i32> {
-        const modulo: i64 = 1e9 as i64 + 7;
+        const MODULO: i64 = 1e9 as i64 + 7;
         
         let mut powers = Vec::new();
         let mut m = n;
@@ -12,20 +12,20 @@ impl Solution {
                 powers.push(power);
             }
             m /= 2;
-            power = power * 2 % modulo;
+            power = power * 2 % MODULO;
         }
         
         powers.sort();
         
         let mut pre_prod = vec![1; powers.len() + 1];
         for i in 1 ..= powers.len() {
-            pre_prod[i] = pre_prod[i - 1] * powers[i - 1] % modulo;
+            pre_prod[i] = pre_prod[i - 1] * powers[i - 1] % MODULO;
         }
         
         let mut res = Vec::new();
         for query in queries.iter() {
             let (l, r) = (query[0] as usize, query[1] as usize);
-            let re = ((pre_prod[r + 1] % modulo) * (Self::get_modular_inverse(pre_prod[l], modulo) % modulo)) % modulo;
+            let re = ((pre_prod[r + 1] % MODULO) * (Self::get_modular_inverse(pre_prod[l], MODULO) % MODULO)) % MODULO;
             res.push(re as i32);
         }
         
