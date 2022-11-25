@@ -2,14 +2,14 @@ struct Solution;
 
 impl Solution {
     pub fn ways_to_build_rooms(prev_room: Vec<i32>) -> i32 {  
-        const modulo: i64 = 1e9 as i64 + 7;
+        const MODULO: i64 = 1e9 as i64 + 7;
         
         let n = prev_room.len();
         let mut factorial = vec![1; n + 1];
         let mut modular_inverse = vec![1; n + 1];
         for i in 1 ..= n {
-            factorial[i] = factorial[i - 1] * (i as i64) % modulo;
-            modular_inverse[i] = Self::get_modular_inverse(factorial[i], modulo);
+            factorial[i] = factorial[i - 1] * (i as i64) % MODULO;
+            modular_inverse[i] = Self::get_modular_inverse(factorial[i], MODULO);
         }
         
         let mut graph = vec![Vec::new(); n];
@@ -22,7 +22,7 @@ impl Solution {
         let mut dp = vec![0; n];
         let mut cnt = vec![0; n];
         
-        Self::dfs(&graph, &mut dp, &mut cnt, 0, &factorial, &modular_inverse, modulo);
+        Self::dfs(&graph, &mut dp, &mut cnt, 0, &factorial, &modular_inverse, MODULO);
         dp[0] as i32
     }
     
