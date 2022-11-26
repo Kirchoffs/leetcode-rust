@@ -1,4 +1,3 @@
-use std::cmp::max;
 use std::cmp::min;
 use std::collections::VecDeque;
 
@@ -29,13 +28,13 @@ mod test {
     use super::Solution;
 
     #[test]
-    fn lc_0042_Stack_1() {
+    fn lc_0042_stack_1() {
         let height = vec![0, 1, 0, 2, 1, 0, 1, 3, 2, 1, 2, 1];
         assert_eq!(Solution::trap(height), 6);
     }
 
     #[test]
-    fn lc_0042_Stack_2() {
+    fn lc_0042_stack_2() {
         let height = vec![4, 2, 0, 3, 2, 5];
         assert_eq!(Solution::trap(height), 9);
     }

@@ -30,13 +30,13 @@ mod test {
     use super::Solution;
 
     #[test]
-    fn lc_0903_1() {
+    fn lc_0903_presum_optimized_1() {
         let s = String::from("DID");
         assert_eq!(Solution::num_perms_di_sequence(s), 5);
     }
 
     #[test]
-    fn lc_0903_2() {
+    fn lc_0903_presum_optimized_2() {
         let s = String::from("D");
         assert_eq!(Solution::num_perms_di_sequence(s), 1);
     }

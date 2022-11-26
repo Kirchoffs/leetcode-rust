@@ -37,13 +37,13 @@ mod test {
     use super::Solution;
 
     #[test]
-    fn lc_0041_1() {
+    fn lc_0041_hash_1() {
         let nums = vec![1, 2, 0];
         assert_eq!(Solution::first_missing_positive(nums), 3);
     }
 
     #[test]
-    fn lc_0041_2() {
+    fn lc_0041_hash_2() {
         let nums = vec![3, 4, -1, 1];
         assert_eq!(Solution::first_missing_positive(nums), 2);
     }

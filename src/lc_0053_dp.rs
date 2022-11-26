@@ -23,7 +23,7 @@ mod test {
     use super::Solution;
 
     #[test]
-    fn lc_0053_DP_1() {
+    fn lc_0053_dp_1() {
         let nums = vec![-2, 1, -3, 4, -1, 2, 1, -5, 4];
         assert_eq!(Solution::max_sub_array(nums), 6);
     }

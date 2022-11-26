@@ -56,14 +56,14 @@ mod test {
     use super::Solution;
 
     #[test]
-    fn lc_2438_1() {
+    fn lc_2438_modular_inverse_1() {
         let n = 15;
         let queries = vec![vec![0, 1], vec![2, 2], vec![0, 3]];
         assert_eq!(Solution::product_queries(n, queries), vec![2, 4, 64]);
     }
 
     #[test]
-    fn lc_2438_2() {
+    fn lc_2438_modular_inverse_2() {
         let n = 2;
         let queries = vec![vec![0, 0]];
         assert_eq!(Solution::product_queries(n, queries), vec![2]);

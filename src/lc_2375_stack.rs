@@ -1,5 +1,3 @@
-use std::collections::VecDeque;
-
 struct Solution;
 
 impl Solution {
@@ -26,14 +24,14 @@ mod test {
     use super::Solution;
 
     #[test]
-    fn lc_2375_1() {
+    fn lc_2375_stack_1() {
         let s = String::from("IIIDIDDD");
 
         assert_eq!(Solution::smallest_number(s), "123549876");
     }
 
     #[test]
-    fn lc_2375_2() {
+    fn lc_2375_stack_2() {
         let s = String::from("DDD");
 
         assert_eq!(Solution::smallest_number(s), "4321");

@@ -33,13 +33,13 @@ mod test {
     use super::Solution;
 
     #[test]
-    fn lc_0053_DAC_1() {
+    fn lc_0053_dac_1() {
         let nums = vec![-2, 1, -3, 4, -1, 2, 1, -5, 4];
         assert_eq!(Solution::max_sub_array(nums), 6);
     }
 
     #[test]
-    fn lc_0053_DAC_2() {
+    fn lc_0053_dac_2() {
         let nums = vec![5, 4, -1, 7, 8];
         assert_eq!(Solution::max_sub_array(nums), 23);
     }
