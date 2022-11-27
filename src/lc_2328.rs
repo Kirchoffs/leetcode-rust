@@ -6,7 +6,7 @@ pub enum State {
 
 const DX: [i32; 4] = [0, 0, 1, -1];
 const DY: [i32; 4] = [1, -1, 0, 0];
-const modulus: i32 = 1e9 as i32 + 7;
+const MODULO: i32 = 1e9 as i32 + 7;
 
 struct Solution;
 
@@ -23,7 +23,7 @@ impl Solution {
                     Self::dfs(&grid, &mut states, i, j);
                 }
                 if let State::Solved(cnt) = states[i][j] {
-                    res = (res + cnt) % modulus;
+                    res = (res + cnt) % MODULO;
                 }
             }
         }
@@ -49,7 +49,7 @@ impl Solution {
                         Self::dfs(grid, states, nxt_i, nxt_j);
                     }
                     if let State::Solved(cnt) = states[nxt_i][nxt_j] {
-                        res = (res + cnt) % modulus;
+                        res = (res + cnt) % MODULO;
                     }
                 }
             }

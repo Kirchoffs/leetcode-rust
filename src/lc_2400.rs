@@ -4,7 +4,7 @@ struct Solution;
 
 impl Solution {
     pub fn number_of_ways(start_pos: i32, end_pos: i32, k: i32) -> i32 {
-        const modulo: i32 = 1e9 as i32 + 7;
+        const MODULO: i32 = 1e9 as i32 + 7;
         let delta = (end_pos - start_pos).abs();
         
         // l - r = d
@@ -14,7 +14,7 @@ impl Solution {
             return 0;
         }
         
-        return Self::n_choose_k(k, (delta + k) / 2, modulo);
+        return Self::n_choose_k(k, (delta + k) / 2, MODULO);
     }
     
     fn n_choose_k(total: i32, move_forward: i32, modulo: i32) -> i32 {

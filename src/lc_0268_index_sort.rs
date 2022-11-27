@@ -32,19 +32,19 @@ mod test {
     use super::Solution;
 
     #[test]
-    fn lc_0268_swap_1() {
+    fn lc_0268_index_sort_1() {
         let nums = vec![3, 0, 1];
         assert_eq!(Solution::missing_number(nums), 2);
     }
 
     #[test]
-    fn lc_0268_swap_2() {
+    fn lc_0268_index_sort_2() {
         let nums = vec![0, 1];
         assert_eq!(Solution::missing_number(nums), 2);
     }
 
     #[test]
-    fn lc_0268_swap_3() {
+    fn lc_0268_index_sort_3() {
         let nums = vec![9, 6, 4, 2, 3, 5, 7, 0, 1];
         assert_eq!(Solution::missing_number(nums), 8);
     }

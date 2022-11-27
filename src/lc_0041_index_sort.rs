@@ -27,13 +27,13 @@ mod test {
     use super::Solution;
 
     #[test]
-    fn lc_0041_swap_1() {
+    fn lc_0041_index_sort_1() {
         let nums = vec![1, 2, 0];
         assert_eq!(Solution::first_missing_positive(nums), 3);
     }
 
     #[test]
-    fn lc_0041_swap_2() {
+    fn lc_0041_index_sort_2() {
         let nums = vec![3, 4, -1, 1];
         assert_eq!(Solution::first_missing_positive(nums), 2);
     }
