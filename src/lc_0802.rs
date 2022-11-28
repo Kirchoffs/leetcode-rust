@@ -2,7 +2,7 @@ struct Solution;
 
 impl Solution {
     pub fn eventual_safe_nodes(graph: Vec<Vec<i32>>) -> Vec<i32> {
-        let mut n = graph.len();
+        let n = graph.len();
         
         // -1: unvisited
         // 0: visited but in stack

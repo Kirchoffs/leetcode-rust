@@ -90,8 +90,8 @@ mod test {
 
     #[test]
     fn lc_2426_1() {
-        let mut nums1 = vec![3, 2, 5];
-        let mut nums2 = vec![2, 2, 1];
+        let nums1 = vec![3, 2, 5];
+        let nums2 = vec![2, 2, 1];
         let diff = 1;
 
         assert_eq!(Solution::number_of_pairs(nums1, nums2, diff), 3);
@@ -99,8 +99,8 @@ mod test {
 
     #[test]
     fn lc_2426_2() {
-        let mut nums1 = vec![3, -1];
-        let mut nums2 = vec![-2, 2];
+        let nums1 = vec![3, -1];
+        let nums2 = vec![-2, 2];
         let diff = -1;
 
         assert_eq!(Solution::number_of_pairs(nums1, nums2, diff), 0);
