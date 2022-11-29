@@ -52,7 +52,7 @@ impl Solution {
     
     fn find_start(chs1: &Vec<char>, chs2: &Vec<char>, end: usize) -> usize {
         let (mut i, mut j) = (end, chs2.len() - 1);
-        while i >= 0 {
+        loop {
             if chs1[i] == chs2[j] {
                 if j == 0 {
                     return i;
