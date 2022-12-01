@@ -34,6 +34,7 @@ mod lc_0462;
 mod lc_0484;
 mod lc_0493;
 mod lc_0524;
+mod lc_0525;
 mod lc_0560;
 mod lc_0621;
 mod lc_0645_index_sort;
