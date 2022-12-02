@@ -48,6 +48,7 @@ mod lc_0862;
 mod lc_0902;
 mod lc_0903;
 mod lc_0903_presum_optimized;
+mod lc_0930;
 mod lc_0942;
 mod lc_0952;
 mod lc_0984;
