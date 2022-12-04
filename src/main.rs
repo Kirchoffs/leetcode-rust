@@ -75,6 +75,7 @@ mod lc_1819;
 mod lc_1857;
 mod lc_1916;
 mod lc_1944;
+mod lc_1983;
 mod lc_1998;
 mod lc_2033;
 mod lc_2055;
