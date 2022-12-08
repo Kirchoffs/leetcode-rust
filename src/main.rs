@@ -67,6 +67,7 @@ mod lc_1442;
 mod lc_1462;
 mod lc_1478;
 mod lc_1499;
+mod lc_1542;
 mod lc_1562;
 mod lc_1591;
 mod lc_1627;
