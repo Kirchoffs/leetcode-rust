@@ -39,6 +39,7 @@ mod lc_0560;
 mod lc_0621;
 mod lc_0645_index_sort;
 mod lc_0727;
+mod lc_0743_FloydWarshall;
 mod lc_0767;
 mod lc_0777;
 mod lc_0792;
