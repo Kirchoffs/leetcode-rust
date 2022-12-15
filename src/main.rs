@@ -42,6 +42,7 @@ mod lc_0727;
 mod lc_0743_FloydWarshall;
 mod lc_0767;
 mod lc_0777;
+mod lc_0778_Dijkstra;
 mod lc_0792;
 mod lc_0802;
 mod lc_0834;
