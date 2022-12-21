@@ -94,6 +94,7 @@ mod lc_2234;
 mod lc_2242;
 mod lc_2263;
 mod lc_2267;
+mod lc_2272;
 mod lc_2282;
 mod lc_2311;
 mod lc_2312;
@@ -115,6 +116,7 @@ mod lc_2398;
 mod lc_2400;
 mod lc_2426;
 mod lc_2434;
+mod lc_2435;
 mod lc_2438_modular_inverse;
 mod lc_2456;
 
