@@ -84,6 +84,8 @@ mod lc_1944;
 mod lc_1983;
 mod lc_1998;
 mod lc_2033;
+mod lc_2044_knapsack;
+mod lc_2044_bitmask;
 mod lc_2055;
 mod lc_2115;
 mod lc_2183;
