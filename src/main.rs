@@ -121,6 +121,7 @@ mod lc_2434;
 mod lc_2435;
 mod lc_2438_modular_inverse;
 mod lc_2456;
+mod lc_2461;
 
 fn main() {
     println!("Hello Rust");
