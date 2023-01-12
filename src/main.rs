@@ -3,6 +3,8 @@ mod lc_0002;
 mod lc_0003;
 mod lc_0004;
 mod lc_0005;
+mod lc_0021_recursion;
+mod lc_0021_iteration;
 mod lc_0031;
 mod lc_0041_hash;
 mod lc_0041_index_sort;
