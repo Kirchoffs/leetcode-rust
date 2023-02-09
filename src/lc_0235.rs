@@ -92,8 +92,8 @@ mod test {
         }
 
         let mut i = 0;
-        let mut root_node = TreeNode::new(level_order[i].unwrap());
-        let mut root_node_rc = Rc::new(RefCell::new(root_node));
+        let root_node = TreeNode::new(level_order[i].unwrap());
+        let root_node_rc = Rc::new(RefCell::new(root_node));
         let mut queue = VecDeque::new();
         queue.push_back(root_node_rc.clone());
         i += 1;
