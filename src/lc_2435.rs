@@ -2,7 +2,7 @@ struct Solution;
 
 impl Solution {
     pub fn number_of_paths(grid: Vec<Vec<i32>>, k: i32) -> i32 {
-        const modulo: i32 = (1e9 as i32) + 7;
+        const MODULO: i32 = (1e9 as i32) + 7;
         let m = grid.len();
         let n = grid[m - 1].len();
 
@@ -15,11 +15,11 @@ impl Solution {
                     let cur_idx = t as usize;
                     let nxt_idx = ((t - val + k * (val / k + 1)) % k) as usize;
                     if i + 1 < m {
-                        memo[i][j][cur_idx] = (memo[i][j][cur_idx] + memo[i + 1][j][nxt_idx]) % modulo;
+                        memo[i][j][cur_idx] = (memo[i][j][cur_idx] + memo[i + 1][j][nxt_idx]) % MODULO;
                     }
 
                     if j + 1 < n {
-                        memo[i][j][cur_idx] = (memo[i][j][cur_idx] + memo[i][j + 1][nxt_idx]) % modulo;
+                        memo[i][j][cur_idx] = (memo[i][j][cur_idx] + memo[i][j + 1][nxt_idx]) % MODULO;
                     }
                 }
             }

@@ -58,5 +58,4 @@ mod test {
 
         assert_eq!(Solution::count_primes(n), 0);
     }
-
 }
