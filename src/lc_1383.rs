@@ -6,7 +6,7 @@ struct Solution;
 impl Solution {
     pub fn max_performance(n: i32, speed: Vec<i32>, efficiency: Vec<i32>, k: i32) -> i32 {
         let k = k as usize;
-        const modulo: i64 = 1e9 as i64 + 7;
+        const MODULO: i64 = 1e9 as i64 + 7;
 
         let n = speed.len();
         let mut idx = vec![0; n];
@@ -29,7 +29,7 @@ impl Solution {
             res = max(res, cur_sum * efficiency[idx[i]] as i64);
         }
 
-        (res % modulo) as i32
+        (res % MODULO) as i32
     }
 }
 
