@@ -48,14 +48,14 @@ mod test {
     use super::Solution;
 
     #[test]
-    fn lc_0778_Dijkstra_1() {
+    fn lc_0778_dijkstra_1() {
         let grid = vec![vec![0, 1], vec![1, 3]];
 
         assert_eq!(Solution::swim_in_water(grid), 3);
     }
 
     #[test]
-    fn lc_0778_Dijkstra_2() {
+    fn lc_0778_dijkstra_2() {
         let grid = vec![
             vec![0, 1, 2, 3, 4],
             vec![24, 23, 22, 21, 5],
