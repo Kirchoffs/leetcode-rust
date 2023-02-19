@@ -24,3 +24,12 @@ let a: f64 = 2.718;
 let b: f64 = 0.367;
 let c = a.min(b);
 ```
+
+### Convert String to Vec<char>
+```
+let chs = s.chars().collect::<Vec<char>>();
+```
+or
+```
+let chs: Vec<char> = s.chars().collect();
+```
