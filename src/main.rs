@@ -137,6 +137,7 @@ mod lc_2461;
 mod lc_2542;
 mod lc_2553;
 mod lc_2555;
+mod lc_2565;
 
 fn main() {
     println!("Hello Rust");
