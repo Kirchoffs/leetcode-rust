@@ -11,7 +11,7 @@ impl Solution {
         let mut suf = vec![m; n + 1];
 		let mut j = m - 1;
 		for i in (0 ..= n - 1).rev() {
-			if j >= 0 && chs_s[i] == chs_t[j] {
+			if chs_s[i] == chs_t[j] {
 				if j >= 1 {
 					j -= 1;
 				}
