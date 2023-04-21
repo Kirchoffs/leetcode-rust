@@ -66,6 +66,7 @@ mod lc_0984;
 mod lc_1012;
 mod lc_1054;
 mod lc_1055;
+mod lc_1066;
 mod lc_1067;
 mod lc_1186;
 mod lc_1224;

@@ -47,3 +47,23 @@ for (idx, (&num1, &num2)) in nums1.iter().zip(nums2.iter()).enumerate() {
     ...
 }
 ```
+
+### Anonymous Function
+```
+let count_one = |mut mask: usize| -> usize {
+    let mut res = 0;
+    while mask != 0 {
+        res += mask % 2;
+        mask /= 2;
+    }
+    res
+};
+```
+
+```
+let manhattan_dist = |worker_idx: usize, bike_idx: usize| -> i32 {
+    return 
+        (workers[worker_idx][0] - bikes[bike_idx][0]).abs() + 
+        (workers[worker_idx][1] - bikes[bike_idx][1]).abs();
+};
+```
