@@ -38,7 +38,7 @@ mod test {
     use super::Solution;
 
     #[test]
-    fn lc_0743_FloydWarshall_1() {
+    fn lc_0743_floyd_warshall_1() {
         let times = vec![
             vec![2, 1, 1],
             vec![2, 3, 1],
@@ -51,7 +51,7 @@ mod test {
     }
 
     #[test]
-    fn lc_0743_FloydWarshall_2() {
+    fn lc_0743_floyd_warshall_2() {
         let times = vec![
             vec![1, 2, 1],
         ];
@@ -62,7 +62,7 @@ mod test {
     }
 
     #[test]
-    fn lc_0743_FloydWarshall_3() {
+    fn lc_0743_floyd_warshall_3() {
         let times = vec![
             vec![1, 2, 1],
         ];
