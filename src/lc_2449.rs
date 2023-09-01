@@ -1,7 +1,7 @@
 struct Solution;
 
 impl Solution {
-    pub fn make_similar(mut nums: Vec<i32>, mut targ: Vec<i32>) -> i64 
+    pub fn make_similar(mut nums: Vec<i32>, targ: Vec<i32>) -> i64 
     {
         let (mut nums_odd, mut nums_evn): (Vec<i32>, Vec<i32>) = 
             nums.into_iter().partition(|n| n % 2 == 0);

@@ -33,6 +33,8 @@ mod lc_0315;
 mod lc_0329;
 mod lc_0351;
 mod lc_0357;
+mod lc_0394_dfs;
+mod lc_0394_stack;
 mod lc_0407_priority_queue;
 mod lc_0442_index_sort;
 mod lc_0448_index_sort;
