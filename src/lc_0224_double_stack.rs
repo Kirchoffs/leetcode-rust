@@ -51,17 +51,17 @@ mod test {
     use super::Solution;
 
     #[test]
-    fn lc_0224_1() {
+    fn lc_0224_double_stack_1() {
         assert_eq!(Solution::calculate("1 + 1".to_string()), 2);
     }
 
     #[test]
-    fn lc_0224_2() {
+    fn lc_0224_double_stack_2() {
         assert_eq!(Solution::calculate("2-1+2".to_string()), 3);
     }
 
     #[test]
-    fn lc_0224_3() {
+    fn lc_0224_double_stack_3() {
         assert_eq!(Solution::calculate("(1+(4+5+2)-3)+(6+8)".to_string()), 23);
     }
 }
