@@ -11,27 +11,64 @@ To test all the tests in lc_1644:
 >> cargo test lc_1644 -- --nocapture
 ```
 
+## Problems Index
+### Sort
+#### Quick Select
+- LC-347
+
 ## Rust Detail
-### Sort Vec of floats
+### HashMap
+```
+let mut map = HashMap::new();
+
+// insert / insert
+map.insert(1, 2);
+
+// Get
+let val = map.get(&1).unwrap();
+
+// remove
+map.remove(&1);
+
+// Get all the keys
+let keys = map.keys().map(|&x| x).collect::<Vec<i32>>();
+
+// Get or insert default
+let val = map.entry(1).or_insert(-1);
+```
+
+### Vec
+#### Convert Vec to HashSet
+```
+let set = vec.into_iter().collect::<HashSet<i32>>();
+```
+
+```
+let set = vec.iter().cloned().collect::<HashSet<i32>>();
+```
+
+#### Sort Vec of floats
 ```
 let mut arr = vec![0.618, 2.718, 0.367];
 arr.sort_by(|a, b| b.partial_cmp(a).unwrap());
 ```
 
-### Max value of two floats
+#### Convert String to Vec<char>
+```
+let chs = s.chars().collect::<Vec<char>>();
+```
+
+```
+let chs: Vec<char> = s.chars().collect();
+```
+
+### Compare
+
+#### Max value of two floats
 ```
 let a: f64 = 2.718;
 let b: f64 = 0.367;
 let c = a.max(b);
-```
-
-### Convert String to Vec<char>
-```
-let chs = s.chars().collect::<Vec<char>>();
-```
-or
-```
-let chs: Vec<char> = s.chars().collect();
 ```
 
 ### Zip & Enumerate
