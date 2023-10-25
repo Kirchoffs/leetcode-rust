@@ -56,4 +56,3 @@ mod test {
         assert_eq!(Solution::min_operations(n), 3);
     }
 }
-
