@@ -104,3 +104,21 @@ let manhattan_dist = |worker_idx: usize, bike_idx: usize| -> i32 {
         (workers[worker_idx][1] - bikes[bike_idx][1]).abs();
 };
 ```
+
+### Conversion
+#### Convert char to digit
+```
+let ch = '1';
+let digit = ch as i32 - '0' as i32;
+```
+
+```
+let ch = '1';
+let digit = ch.to_digit(10).unwrap() as i32;
+```
+
+#### Convert digit to char
+```
+let digit = 1;
+let ch = char::from_digit(digit as u32, 10).unwrap();
+```

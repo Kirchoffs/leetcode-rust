@@ -9,6 +9,7 @@ mod lc_0031;
 mod lc_0041_hash;
 mod lc_0041_index_sort;
 mod lc_0042_stack;
+mod lc_0043;
 mod lc_0042_two_pointers;
 mod lc_0053_dac;
 mod lc_0053_dp;
