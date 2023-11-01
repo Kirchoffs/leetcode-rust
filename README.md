@@ -63,6 +63,12 @@ let chs: Vec<char> = s.chars().collect();
 ```
 
 ### Compare
+#### Compare value of two int
+```
+let a = 4;
+let b = 2;
+let c = std::cmp::max(a, b);
+```
 
 #### Max value of two floats
 ```
@@ -122,3 +128,6 @@ let digit = ch.to_digit(10).unwrap() as i32;
 let digit = 1;
 let ch = char::from_digit(digit as u32, 10).unwrap();
 ```
+
+### Constant
+- Max value of i32: `std::i32::MAX`

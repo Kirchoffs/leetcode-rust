@@ -41,6 +41,7 @@ mod lc_0357;
 mod lc_0394_dfs;
 mod lc_0394_stack;
 mod lc_0407_priority_queue;
+mod lc_0410_dp;
 mod lc_0442_index_sort;
 mod lc_0448_index_sort;
 mod lc_0462;
