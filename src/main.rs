@@ -1,4 +1,5 @@
 mod lc_0001;
+mod lc_0001_hash;
 mod lc_0002;
 mod lc_0003;
 mod lc_0004;
