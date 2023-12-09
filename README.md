@@ -53,6 +53,12 @@ let mut arr = vec![0.618, 2.718, 0.367];
 arr.sort_by(|a, b| b.partial_cmp(a).unwrap());
 ```
 
+#### Sort Vec of ints
+```
+let mut arr = vec![3, 2, 1];
+arr.sort();
+```
+
 #### Convert String to Vec<char>
 ```
 let chs = s.chars().collect::<Vec<char>>();

@@ -35,6 +35,7 @@ mod lc_0296;
 mod lc_0310;
 mod lc_0315;
 mod lc_0329;
+mod lc_0330;
 mod lc_0347_quick_select;
 mod lc_0347_quick_select_another_way;
 mod lc_0351;
