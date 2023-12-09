@@ -137,3 +137,45 @@ let ch = char::from_digit(digit as u32, 10).unwrap();
 
 ### Constant
 - Max value of i32: `std::i32::MAX`
+
+### Priority Queue
+```
+let mut heap = BinaryHeap::new();
+assert_eq!(heap.peek(), None);
+
+heap.push(1);
+heap.push(5);
+heap.push(2);
+assert_eq!(heap.peek(), Some(&5));
+assert_eq!(heap.len(), 3);
+for x in &heap {
+    println!("{}", x);
+}
+
+assert_eq!(heap.pop(), Some(5));
+assert_eq!(heap.pop(), Some(2));
+assert_eq!(heap.pop(), Some(1));
+assert_eq!(heap.pop(), None);
+
+heap.clear();
+
+assert!(heap.is_empty());
+```
+
+```
+let mut heap: BinaryHeap<(i32, i32)> = BinaryHeap::new();
+assert_eq!(heap.peek(), None);
+
+heap.push((2, 3));
+heap.push((2, 5));
+heap.push((3, 5));
+
+let x = heap.pop();
+println!("{:?}", x.unwrap());
+
+let x = heap.pop();
+println!("{:?}", x);
+
+let x = heap.pop();
+println!("{:?}", x);
+```

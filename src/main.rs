@@ -27,6 +27,7 @@ mod lc_0233;
 mod lc_0235;
 mod lc_0236;
 mod lc_0239;
+mod lc_0264_pq_set;
 mod lc_0268_hash;
 mod lc_0268_index_sort;
 mod lc_0287_bs;
