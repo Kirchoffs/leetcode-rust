@@ -161,6 +161,7 @@ mod lc_2571;
 mod lc_2904;
 mod lc_2947_brutal;
 mod lc_2947_hash_congruence;
+mod lc_2943;
 
 fn main() {
     println!("Hello Rust");
