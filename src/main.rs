@@ -80,6 +80,7 @@ mod lc_1055;
 mod lc_1066;
 mod lc_1067;
 mod lc_1186;
+mod lc_1201;
 mod lc_1224;
 mod lc_1249_naive_double_traverse;
 mod lc_1371;

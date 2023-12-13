@@ -97,7 +97,7 @@ for (idx, (&num1, &num2)) in nums1.iter().zip(nums2.iter()).enumerate() {
 }
 ```
 
-### Anonymous Function
+### Anonymous Function / Lambda Function
 ```
 let count_one = |mut mask: usize| -> usize {
     let mut res = 0;
@@ -178,4 +178,10 @@ println!("{:?}", x);
 
 let x = heap.pop();
 println!("{:?}", x);
+```
+
+### Math
+#### Power
+```
+let x = 4_i64.pow(2);
 ```
