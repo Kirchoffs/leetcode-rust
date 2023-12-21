@@ -19,7 +19,7 @@ impl Solution {
             }
             min_deque.push_back(nums[j]);
 
-            if (*max_deque.front().unwrap() - *min_deque.front().unwrap() > limit) {
+            if *max_deque.front().unwrap() - *min_deque.front().unwrap() > limit {
                 if *max_deque.front().unwrap() == nums[i] {
                     max_deque.pop_front();
                 }

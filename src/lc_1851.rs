@@ -23,7 +23,7 @@ impl Solution {
                 j += 1;
             }
 
-            while (!pq.is_empty()) {
+            while !pq.is_empty() {
                 let candidate = pq.peek().unwrap();
                 let (candidate_len, candidate_right) = (-candidate.0, candidate.1);
                 if candidate_right >= cur {

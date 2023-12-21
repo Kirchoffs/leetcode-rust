@@ -16,6 +16,9 @@ To test all the tests in lc_1644:
 #### Quick Select
 - LC-347
 
+### Palindrome
+- LC-2967
+
 ## Rust Detail
 ### HashMap
 ```

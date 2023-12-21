@@ -166,6 +166,9 @@ mod lc_2904;
 mod lc_2947_brutal;
 mod lc_2947_hash_congruence;
 mod lc_2943;
+mod lc_2967_generate_palindromes;
+mod lc_2967_generate_palindromes_optimized;
+mod lc_2967_generate_palindromes_optimized_single_median;
 
 fn main() {
     println!("Hello Rust");
