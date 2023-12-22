@@ -169,6 +169,7 @@ mod lc_2943;
 mod lc_2967_generate_palindromes;
 mod lc_2967_generate_palindromes_optimized;
 mod lc_2967_generate_palindromes_optimized_single_median;
+mod lc_2967_closest_palindrome;
 
 fn main() {
     println!("Hello Rust");

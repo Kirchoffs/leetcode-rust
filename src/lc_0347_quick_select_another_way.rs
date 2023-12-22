@@ -35,7 +35,7 @@ impl Solution {
         if m == k {
             return;
         } else if m > k {
-            Self::quick_select(unique_nums, scores, k,  l, m - 1);
+            Self::quick_select(unique_nums, scores, k, l, m - 1);
         } else {
             Self::quick_select(unique_nums, scores, k, m + 1, r);
         }
